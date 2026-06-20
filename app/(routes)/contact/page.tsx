@@ -24,7 +24,7 @@ export default function ContactPage() {
           <h1 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h1>
           <p className="text-lg text-gray-600 mb-8">
             Have questions about our tech stack or want to discuss a potential collaboration? 
-            We'd love to hear from you.
+            We&apos;d love to hear from you.
           </p>
 
           <div className="space-y-6">

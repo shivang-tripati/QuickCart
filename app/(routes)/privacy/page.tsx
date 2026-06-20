@@ -35,7 +35,7 @@ export default function PrivacyPage() {
 
         <div className="mt-12 p-6 bg-gray-50 rounded-lg border border-gray-200">
           <p className="text-sm text-gray-500">
-            <strong>Note:</strong> This is a portfolio project. No real user data is being stored or sold. All data shown is for demonstration purposes only.
+            <strong>Note</strong> This is a portfolio project. No real user data is being stored or sold. All data shown is for demonstration purposes only.
           </p>
         </div>
       </div>

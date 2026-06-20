@@ -11,7 +11,6 @@ interface Query {
     isFeatured? : boolean
 }
 
-console.log("URL -> ", URL)
 const getProducts = async (query : Query) : Promise<Product[]> => {
     const url = qs.stringifyUrl({
         url : URL,

@@ -8,6 +8,9 @@ export const revalidate = 0;
 
 const Navbar = async () => {
     const categories = await getCategories();
+    const uniqueCategories = Array.from(
+  new Map(categories.map(category => [category.name, category])).values()
+);
 
     return (
         <div className="border-b relative">
@@ -21,7 +24,7 @@ const Navbar = async () => {
                     </Link> 
                     
                     {/* Center: Navigation (Handles its own mobile/desktop switching) */}
-                    <MainNav data={categories}/>
+                    <MainNav data={uniqueCategories}/>
                     
                     {/* Right: Actions (Cart, User, etc.) */}
                     <div className="flex items-center gap-x-4">
